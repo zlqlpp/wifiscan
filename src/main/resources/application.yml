@@ -8,8 +8,8 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    #url: jdbc:mysql://10.38.101.172:3306/wifiscan?useUnicode=true&characterEncoding=UTF-8&servserTimezone=Asia/Shanghai
-    url: jdbc:mysql://sh-cynosdbmysql-grp-0c6uxq0q.sql.tencentcdb.com:25361/wifiscan?useUnicode=true&characterEncoding=UTF-8&servserTimezone=Asia/Shanghai
+    url: jdbc:mysql://10.38.101.172:3306/wifiscan?useUnicode=true&characterEncoding=UTF-8&servserTimezone=Asia/Shanghai
+    #url: jdbc:mysql://sh-cynosdbmysql-grp-0c6uxq0q.sql.tencentcdb.com:25361/wifiscan?useUnicode=true&characterEncoding=UTF-8&servserTimezone=Asia/Shanghai
     username: wifiscan
     password: xyd123456@
 

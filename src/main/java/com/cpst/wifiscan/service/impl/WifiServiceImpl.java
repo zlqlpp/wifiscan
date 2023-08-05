@@ -20,4 +20,10 @@ public class WifiServiceImpl   implements WifiService {
         return wifiNameMapper.findWifiName();
     }
 
+    @Override
+    public int saveWifi(WifiName wifiName){
+
+        return wifiNameMapper.insert(wifiName);
+    }
+
 }
