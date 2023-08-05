@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.cpst</groupId>
 	<artifactId>wifiscan</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-released</version>
 	<name>wifiscan</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -70,6 +70,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
+					<outputDirectory>C:\Users\zlq\Desktop\wx_wifi\git\wifiscan</outputDirectory>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
