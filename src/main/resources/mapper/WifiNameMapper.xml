@@ -3,8 +3,8 @@
 <mapper namespace="com.cpst.wifiscan.mapper.WifiNameMapper">
 
 
-    <select id="findGoodsVo" resultType="com.cpst.wifiscan.domain.WifiName">
-
+    <select id="findWifiName" resultType="com.cpst.wifiscan.domain.WifiName">
+        select * from wifi_name;
     </select>
 
 </mapper>

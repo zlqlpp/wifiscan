@@ -17,7 +17,7 @@ public class WifiServiceImpl   implements WifiService {
     @Override
     public List<WifiName> findWifiName(){
 
-        return null;
+        return wifiNameMapper.findWifiName();
     }
 
 }
