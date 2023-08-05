@@ -1,5 +1,5 @@
 # 该镜像需要依赖的基础镜像
-FROM java:20
+FROM oraclelinux:8-slim
 # 将当前目录下的jar包复制到docker容器的/目录下
 ADD wifiscan-1.0-released.jar /wifiscan-1.0-released.jar
 # 运行过程中创建一个mall-tiny-docker-file.jar文件
