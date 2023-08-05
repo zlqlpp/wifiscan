@@ -2,6 +2,7 @@
 FROM openjdk:11
 # 将当前目录下的jar包复制到docker容器的/目录下
 ADD wifiscan-1.0-released.jar /wifiscan-1.0-released.jar
+WORKDIR /
 # 运行过程中创建一个mall-tiny-docker-file.jar文件
 RUN bash -c 'touch /wifiscan-1.0-released.jar'
 # 声明服务运行在8080端口
